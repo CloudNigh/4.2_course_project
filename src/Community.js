@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import communityImage from './Images/community.png';
+import livebandImage from './Images/liveband.png';
  
 class Community extends Component {
   render() {
@@ -13,6 +14,7 @@ class Community extends Component {
             <li>Atv/utv/sno</li>
             <li>Auto parts</li>
         </ol>
+        <img src={livebandImage} atl="liveband" width="450" height="300" align="right"/>
       </div>
     );
   }

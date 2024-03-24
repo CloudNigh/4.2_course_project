@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import saleImage from './Images/sale.png';
+import beetleImage from './Images/beetle.png';
  
 class Sale extends Component {
   render() {
@@ -13,6 +14,7 @@ class Sale extends Component {
             <li>Autos</li>
             <li>Beauty</li>
         </ol>
+        <img src={beetleImage} atl="beetle" width="450" height="300" align="right"/>
       </div>
     );
   }
